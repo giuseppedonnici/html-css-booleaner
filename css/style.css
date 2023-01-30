@@ -64,6 +64,20 @@ h1 {
 .highlighted {
     background-color: yellow;
 }
-#sd {
-    margin-bottom: 200px;
+.ul-margin {
+    margin: 50px 20px;
+}
+th, td {
+    width: 25%;
+    text-align: left;
+}
+.td-long {
+    width: 50%;
+}
+thead {
+    background-color: rgb(58, 143, 177);
+    color: white;
+}
+.celestial-row {
+    background-color: aqua;
 }
