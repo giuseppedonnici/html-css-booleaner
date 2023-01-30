@@ -28,7 +28,8 @@ header {
 
 /* MAIN */
 main {
-    width: 100vw;
+    padding: 10px 5px;
+    margin: 5px 20px;
 }
 h1 {
     font-size: 5rem;
@@ -44,6 +45,7 @@ h1 {
 }
 .container-tim-images {
     height: 643px;
+    margin-bottom: 100px;
 }
 .tim1, .tim2 {
     display: inline-block;
@@ -58,4 +60,10 @@ h1 {
     height: 100%;
     width: 45%;
     background-image: url(../img/tim-2.jpg);
+}
+.highlighted {
+    background-color: yellow;
+}
+#sd {
+    margin-bottom: 200px;
 }
