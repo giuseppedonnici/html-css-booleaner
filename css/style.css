@@ -4,3 +4,18 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+/* HEADER */
+.container-header {
+    background-color: rgb(0, 174, 255);
+}
+header {
+    height: 170px;
+    background-image: url(../img/pattern.png);
+    background-position-y: top;
+}
+.logo {
+    width: 300px;
+    padding: 80px 0 0 10px;
+}
+/* /HEADER */
