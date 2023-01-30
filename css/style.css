@@ -67,6 +67,7 @@ h1 {
 .ul-margin {
     margin: 50px 20px;
 }
+/* TABLE */
 th, td {
     width: 25%;
     text-align: left;
@@ -80,4 +81,8 @@ thead {
 }
 .celestial-row {
     background-color: aqua;
+}
+/* /TABLE */
+p:last-child {
+    margin: 50px 0;
 }
