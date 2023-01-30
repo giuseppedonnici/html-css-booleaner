@@ -5,6 +5,12 @@
     box-sizing: border-box;
 }
 
+/* COMMON */
+body {
+    font-size: 1.5rem;
+}
+/* /COMMON */
+
 /* HEADER */
 .container-header {
     background-color: rgb(0, 174, 255);
@@ -19,3 +25,37 @@ header {
     padding: 80px 0 0 10px;
 }
 /* /HEADER */
+
+/* MAIN */
+main {
+    width: 100vw;
+}
+h1 {
+    font-size: 5rem;
+}
+.grey {
+    color: grey;
+}
+.celeste {
+    color:rgb(0, 183, 255)
+}
+.small {
+    font-size: 1rem;
+}
+.container-tim-images {
+    height: 643px;
+}
+.tim1, .tim2 {
+    display: inline-block;
+    background-size: cover;
+} 
+.tim1 {
+    height: 100%;
+    width: 52%;
+    background-image: url(../img/tim-1.jpg);
+}
+.tim2 {
+    height: 100%;
+    width: 45%;
+    background-image: url(../img/tim-2.jpg);
+}
