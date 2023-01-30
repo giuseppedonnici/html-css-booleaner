@@ -29,7 +29,7 @@ header {
 /* MAIN */
 main {
     padding: 10px 5px;
-    margin: 5px 20px;
+    margin: 5px 10px;
 }
 h1 {
     font-size: 5rem;
@@ -42,6 +42,7 @@ h1 {
 }
 .small {
     font-size: 1rem;
+    margin-bottom: 20px;
 }
 .container-tim-images {
     height: 643px;
@@ -84,5 +85,30 @@ thead {
 }
 /* /TABLE */
 p:last-child {
-    margin: 50px 0;
+    margin: 35px 0;
+}
+/* /MAIN */
+
+/* FOOTER */
+footer {
+    margin: 0 0 40px 20px;
+}
+.square {
+    width: 350px;
+    height: 250px;
+    margin: 15px 0;
+    background-size: cover;
+}
+.footer-img1 {
+    background-image: url(../img/monitor.jpg);
+}
+.footer-img2 {
+    background-image: url(../img/graph.jpg);
+}
+.span-footer {
+    display: inline-block;
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 18px 0 0 20px;
 }
